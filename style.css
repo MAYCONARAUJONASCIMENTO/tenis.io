@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+ 
+.fundo{
+     background: #5c0ee2;
+    
+}
+
+.topo{
+   margin: 10px;
+    word-spacing: 50px;
+     text-align: center;
+}
+a{
+   opacity: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tipos{
+    word-spacing: 30px;
+    position: absolute;
+    right: 50px;
+    z-index: 2;
+    top: 20px;
+}
+.material-symbols-outlined {
+  
+ color: #ffffff;    
+
+
+}
+.gradiente{
+
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    right: 460px;
+    top: 180px;
+    filter: blur(4.1rem);
+    border-radius: 100%;
+    background: linear-gradient(109deg, #ffffff 15%, #ffffff 50%,#ffffff 85% );
+  
+}
+.tenisred{
+    z-index: 2;
+  position: absolute;
+  animation: tenisred-animation 2s  linear;
+  top: 170px;
+  right: 500px;
+}
+img{
+    transform: rotate(-15deg);
+    width:500px;
+    animation: img-animation 2.1s  linear;
+}
+
+.pretot{
+    position: absolute;
+    top: 170px;
+    right: 500px;
+    z-index: 3;
+    transform: rotate(-15deg);
+    width:500px;
+   
+}
+.pretot-animation{
+     animation: pretot-animation 2.1s  linear;
+}
+.tenispreto{
+    display: none;
+}
+
+.azull{
+    position: absolute;
+    top: 170px;
+    right: 500px;
+    z-index: 4;
+    transform: rotate(-15deg);
+    width:500px;
+   
+}
+.azull-animation{
+     animation: azull-animation 2.1s  linear;
+}
+.tenisazul{
+    display: none;
+}
+
+.amareloo{
+    position: absolute;
+    top: 170px;
+    right: 500px;
+    z-index: 5;
+    transform: rotate(-15deg);
+    width:500px;
+   
+}
+.amareloo-animation{
+     animation: amareloo-animation 2.1s  linear;
+}
+.tenisamarelo{
+    display: none;
+}
+
+
+h1{
+
+    color: #ffffff;
+    position: absolute;
+    top: 200px;
+    left:60px;
+    font-size: 80px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h3{
+    font-size: 16px;
+    color: #b1b1b1;
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 500;
+}
+
+.tamanho {
+    position: absolute;
+    top: 500px;
+    word-spacing: 10px;   
+    width: 500px;
+    height: 100px;
+    left: 40px;
+
+}
+
+h5{
+    padding: 5px;
+    display: inline-flex;
+    width: 80px;
+ height: 20px;
+ background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px; 
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+e{
+
+    color: #b1b1b1;
+}
+.cores{
+    position: absolute;
+    top: 460px;
+    left: 60px;
+    
+}
+.roxo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6701af;
+
+}
+.preto{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+.azul{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #008ab0;
+
+}
+.amarelo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #E9CE55;
+}
+
+@keyframes tenisred-animation {
+    from {
+        right: -650px;
+
+    }
+    to {
+        right: 500px;
+    }
+}
+@keyframes img-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+}
+
+
+@keyframes pretot-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        right: 500px;
+    }
+}
+
+@keyframes azull-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        right: 500px;
+    }
+}
+@keyframes amareloo-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        right: 500px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .topo{
+        margin: 10px;
+         word-spacing: 50px;
+          text-align: center;
+     }
+
+     .tipos{
+        word-spacing: 30px;
+        position: absolute;
+        right: -100px;
+        z-index: 2;
+        top: 20px;
+    }
+
+    h1 {
+
+        color: #ffffff;
+        position: absolute;
+        top: 50px;
+        left:60px;
+        font-size: 80px;
+        font-family: "Paytone One", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+   
+
+    h3{
+        font-size: 16px;
+        color: #b1b1b1;
+        position: absolute;
+        top: 180px;
+        left: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .gradiente{
+
+        height: 250px;
+        width: 350px;
+        position: absolute;
+        right: -80px;
+        top: 350px;
+        filter: blur(4.1rem);
+        border-radius: 100%;
+        background: linear-gradient(109deg, #ffffff 15%, #ffffff 50%,#ffffff 85% );
+      
+    }
+
+    .cores{
+        position: absolute;
+        top: 660px;
+        left: 60px;
+        
+    }
+h4{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 600px;
+    left: 60px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 500;
+}
+
+.tamanho {
+    position: absolute;
+    top: 700px;
+    word-spacing: 10px;   
+    width: 500px;
+    height: 100px;
+    left: 40px;
+
+}
+
+h5{
+    padding: 5px;
+    display: inline-flex;
+    width: 80px;
+ height: 20px;
+ background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px; 
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+e{
+
+    color: #b1b1b1;
+}
+.tenisred{
+    z-index: 2;
+  position: absolute;
+  animation: tenisred-animation 2s  linear;
+  right: -80px;
+  top: 320px;
+}
+img{
+    transform: rotate(-15deg);
+    width: 400px;
+    animation: img-animation 2.1s  linear;
+}
+
+
+.pretot{
+    position: absolute;
+    right: -80px;
+  top: 320px;
+    z-index: 3;
+    transform: rotate(-15deg);
+    width: 400px;
+   
+}
+.pretot-animation{
+     animation: pretot-animation 2.1s  linear;
+}
+.tenispreto{
+    display: none;
+}
+
+.azull{
+    position: absolute;
+    right: -80px;
+    top: 320px;
+    z-index: 4;
+    transform: rotate(-15deg);
+    width: 400px;
+   
+}
+.azull-animation{
+     animation: azull-animation 2.1s  linear;
+}
+.tenisazul{
+    display: none;
+}
+
+.amareloo{
+    position: absolute;
+    right: -80px;
+    top: 320px;
+    z-index: 5;
+    transform: rotate(-15deg);
+    width: 400px;
+   
+}
+.amareloo-animation{
+     animation: amareloo-animation 2.1s  linear;
+}
+.tenisamarelo{
+    display: none;
+}
+
+@keyframes tenisred-animation {
+    from {
+        right: -650px;
+
+    }
+    to {
+        width: 400px;
+    }
+}
+@keyframes img-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+}
+
+
+@keyframes pretot-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        width: 400px;
+    }
+}
+
+@keyframes azull-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        width: 400px;
+    }
+}
+@keyframes amareloo-animation {
+    from {
+        transform: rotate(0deg)  ;
+
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+
+    from {
+        right: -650px;
+
+    }
+    to {
+        width: 400px;
+    }
+}
+
+}
